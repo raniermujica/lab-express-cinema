@@ -34,9 +34,8 @@ router.get("/movies/:movieId", (req, res, next) => {
   Movies.findById(movieId)
     .then((response) => {
       console.log(response);
-     res.render("/movies/details.hbs", {
+     res.render("movie-details.hbs", {
        details: response,
-       
      });
     })
     .catch((err) => {

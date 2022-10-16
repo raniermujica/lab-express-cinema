@@ -1,8 +1,57 @@
 body {
-  padding: 50px;
+  
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
 }
 
 a {
   color: #00B7FF;
 }
+
+#home-config {
+  position: relative;
+  display: block;
+  text-align: center;
+}
+
+#over-text {
+    position: absolute;
+    display: block;
+
+
+}
+
+#home-button {
+  position: absolute;
+  bottom:4em;
+  background-color:white;
+  border-radius:3em;
+  color:white;
+  padding:1em 1.5em;
+  margin-bottom: 40vh;
+  left: 60vw;
+  width: 15vw;
+  height: 8vh;
+  border-color: white;
+  }
+
+  #home-button a {
+    display: block;
+    text-decoration: none; 
+    font-size: 190%;
+  }
+
+  #home-config h3 {
+    position: absolute;
+    color: white;
+    right:4em;
+    left: 59vw;
+    bottom: 50vh;
+    font-size: 7em;
+  }
+  
+  #home-config img {
+    width: 85vw;
+    height: 98vh;
+  }
+  
+
